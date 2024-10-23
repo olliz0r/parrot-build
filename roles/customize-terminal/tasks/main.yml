@@ -4,6 +4,11 @@
     src: "{{ role_path }}/files/.bashrc"
     dest: "{{ ansible_env.HOME }}"
 
+- name: "Copy NvimRC"
+  copy:
+    src: "{{ role_path }}/files/init.vim"
+    dest: "{{ ansible_env.HOME }}/.config/nvim"
+
 - name: "Read current mate terminal profiles"
   dconf:
     key: "/org/mate/terminal/global/profile-list"
