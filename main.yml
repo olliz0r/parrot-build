@@ -18,4 +18,6 @@
             - DEVSENSE.phptools-vscode
             - Codeium.Codeium
             - snyk-security.snyk-vulnerability-scanner
-
+            - vscodevim.vim
+            - golang.go
+            - formulahendry.code-runner
