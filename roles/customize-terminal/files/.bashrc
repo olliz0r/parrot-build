@@ -125,6 +125,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+alias python3='/home/killchainopus/python/bin/python3'
+alias pip='/home/killchainopus/python/bin/pip'
+alias pip3='/home/killchainopus/python/bin/pip3'
+alias pip3.11='/home/killchainopus/python/bin/pip3.11'
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
