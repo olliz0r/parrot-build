@@ -18,3 +18,5 @@ set whichwrap+=<,>,[,]
 
 command DeletePythonComments :g/^\s*#/d
 command DeleteCComments :g/^\s*\/\//d
+command DeleteMultilineCComments :%s,/\*\_.\{-}\*/\n,,g
+command DeleteAllComments execute 'DeletePythonComments' | execute 'DeleteCComments' | execute 'DeleteMultilineCComments'
