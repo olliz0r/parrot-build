@@ -30,6 +30,9 @@
     - { repo: "jpillora/chisel",  regex: "_linux_amd64.gz", location: "/opt/chisel" }
     - { repo: "jpillora/chisel",  regex: "_windows_amd64.gz", location: "/opt/chisel" }
     #- { repo: "jpillora/chisel",  regex: "_darwin_amd64", location: "/opt/chisel", filename: "chisel_osx" }
+    - { repo: "nicocha30/ligolo-ng/releases",  regex: "agent_*_linux_amd64.tar.gz", location: "/opt/ligolo" }
+    - { repo: "nicocha30/ligolo-ng/releases",  regex: "agent_*_windows_amd64.zip", location: "/opt/ligolo" }
+    - { repo: "nicocha30/ligolo-ng/releases",  regex: "proxy_*_linux_amd64.zip", location: "/opt/ligolo" }
     - { repo: "carlospolop/PEASS-ng",  regex: "linpeas.sh", location: "/opt/peas" }
     - { repo: "carlospolop/PEASS-ng",  regex: "winPEASx64.exe", location: "/opt/peas" }
     - { repo: "WithSecureLabs/chainsaw",  regex: "chainsaw_all_", location: "/opt/" }
